@@ -1,0 +1,92 @@
+        /*ESTILOS PARA COLOCAR EN NUESTRO MENU*/
+/**/
+
+
+#nosotros1 {
+     margin-top: 70px;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+
+
+
+/* #menu li>a{
+ background-color: yellow;
+ color: rgb(31, 1, 4);
+ padding: 10px;
+ display: block;
+ text-decoration: none;
+ min-width: 100px;
+ }
+ #menu li>a:hover{
+ color: #122ea831;
+ background-color: hsl(73, 53%, 82%);
+ }
+ #menu>li{
+ float: left;
+ text-align: center;
+ }*/
+
+ #banner {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+}
+
+#banner .contenedor {
+    
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10%);
+    color: rgb(12, 5, 5);
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 28px;
+}
+
+#banner a {
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+#banner a:hover {
+    background: rgba(51,51,51,0.3);
+}
+
+
+@media (min-width:480px) {
+    #banner h2 {
+        font-size: 40px;
+    }
+
+    #banner a {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:768px) {
+    #banner {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    #banner img {
+        height: auto;
+        margin-top: -100px;
+    }
+}
